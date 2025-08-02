@@ -8,6 +8,10 @@ models:
         description: 
       - name: bdate
         description: 
+        tests:
+          - birthdate_in_range:
+              min_date: '1924-01-01'
+              max_date: CURRENT_DATE
       - name: gen
         description:
       - name: dwh_create_date
@@ -20,6 +24,8 @@ models:
         description: 
       - name: cntry
         description: 
+        tests:
+          - not_null
       - name: dwh_create_date
         description:
 
@@ -30,10 +36,16 @@ models:
         description: 
       - name: cat
         description: 
+        tests:
+          - no_unwanted_spaces
       - name: subcat
         description: 
+        tests:
+          - no_unwanted_spaces
       - name: maintenance
         description: 
+        tests:
+          - no_unwanted_spaces
       - name: dwh_create_date
         description:
 

@@ -60,26 +60,6 @@ models:
 
 
 
-  - name: gold_fact_sales
-    description: Fact table for sales
-    columns:
-      - name: order_number
-        description: 
-      - name: product_key
-        description: 
-      - name: customer_key
-        description: 
-      - name: order_date
-        description: 
-      - name: shipping_date
-        description: 
-      - name: due_date
-        description: 
-      - name: sales_amount
-        description: 
-      - name: quantity
-        description: 
-      - name: price
-        description: 
+
 
  

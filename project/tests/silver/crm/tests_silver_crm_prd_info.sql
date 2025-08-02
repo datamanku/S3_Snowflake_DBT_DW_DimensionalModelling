@@ -7,12 +7,15 @@
 
 -- Check for NULLs or Duplicates in Primary Key
 -- Expectation: No Results
+
+/*
 SELECT 
     prd_id,
     COUNT(*) 
 FROM {{ ref('silver_crm_prd_info') }}
 GROUP BY prd_id
 HAVING COUNT(*) > 1 OR prd_id IS NULL;
+*/
 
 -- Check for Unwanted Spaces
 -- Expectation: No Results

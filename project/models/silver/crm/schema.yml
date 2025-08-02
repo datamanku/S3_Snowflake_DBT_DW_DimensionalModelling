@@ -6,8 +6,13 @@ models:
     columns:
       - name: cst_id
         description: 
+        tests:
+          - not_null
+          - unique
       - name: cst_key
         description: 
+        tests:
+          - no_unwanted_spaces
       - name: cst_firstname
         description: 
       - name: cst_lastname
@@ -26,6 +31,9 @@ models:
     columns:
       - name: prd_id
         description:
+        tests:
+          - not_null
+          - unique
       - name: cat_id
         description:  
       - name: prd_key

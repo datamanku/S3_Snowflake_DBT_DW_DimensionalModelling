@@ -1,0 +1,43 @@
+
+
+
+models:
+  - name: gold_fact_sales
+    description: Fact table for sales
+    columns:
+      - name: order_number
+        description: 
+      - name: product_key
+        description: 
+        tests:
+          - relationships:
+              to: ref('gold_dim_products')  --just a string here, no {{ }}
+              field: product_key
+      - name: customer_key
+        description: 
+        tests:
+          - relationships:
+              to: ref('gold_dim_customers')
+              field: customer_key
+      - name: order_date
+        description: 
+      - name: shipping_date
+        description: 
+      - name: due_date
+        description: 
+      - name: sales_amount
+        description: 
+      - name: quantity
+        description: 
+      - name: price
+        description: 
+
+
+
+
+
+
+
+
+
+ 
