@@ -1,0 +1,34 @@
+
+models:
+
+  - name: bronze_erp_cust_az12
+    description: Table bronze_erp_cust_az12 is the table obtained directly from table raw_CUST_AZ12.
+    columns:
+      - name: cid
+        description: 
+      - name: bdate
+        description: 
+      - name: gen
+        description:
+
+
+  - name: bronze_erp_loc_a101
+    description: Table bronze_erp_loc_a101 is the table obtained directly from table raw_LOC_A101.
+    columns:
+      - name: cid
+        description: 
+      - name: cntry
+        description: 
+
+
+  - name: bronze_erp_px_cat_g1v2
+    description: Table bronze_erp_px_cat_g1v2 is the table obtained directly from table raw_PX_CAT_G1V2.
+    columns:
+      - name: id
+        description: 
+      - name: cat
+        description: 
+      - name: subcat
+        description: 
+      - name: maintenance
+        description: 

@@ -1,0 +1,61 @@
+
+models:
+  - name: bronze_crm_cust_info
+    description: Table bronze_crm_cust_info is the table obtained directly from table raw_cust_info.
+    columns:
+      - name: cst_id
+        description: 
+      - name: cst_key
+        description: 
+      - name: cst_firstname
+        description: 
+      - name: cst_lastname
+        description: 
+      - name: cst_marital_status
+        description: 
+      - name: cst_gndr
+        description: 
+      - name: cst_create_date
+
+
+  - name: bronze_crm_prd_info
+    description: Table bronze_crm_prd_info is the table obtained directly from table raw_prd_info.
+    columns:
+      - name: prd_id
+        description: 
+      - name: prd_key
+        description: 
+      - name: prd_name
+        description: 
+      - name: prd_cost
+        description: 
+      - name: prd_line
+        description: 
+      - name: prd_start_dt
+        description: 
+      - name: prd_end_dt
+
+
+  - name: bronze_crm_sales_details
+    description: Table bronze_crm_sales_details is the table obtained directly from table raw_sales_details.
+    columns:
+      - name: sls_ord_num
+        description: 
+      - name: sls_prd_key
+        description: 
+      - name: sls_cust_id
+        description: 
+      - name: sls_order_dt
+        description: 
+      - name: sls_ship_dt
+        description: 
+      - name: sls_due_dt
+        description: 
+      - name: sls_sales
+        description: 
+      - name: sls_quantity
+        description: 
+      - name: sls_price
+
+
+ 

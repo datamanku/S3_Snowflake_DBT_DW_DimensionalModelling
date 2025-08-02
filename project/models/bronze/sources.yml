@@ -1,0 +1,21 @@
+
+version: 2 
+
+
+sources:
+  - name: raw_for_bronze
+    -- database: projectdb
+    schema: raw
+    tables:
+     - name: c_info
+       identifier: raw_cust_info
+     - name: p_info
+       identifier: raw_prd_info
+     - name: s_details
+       identifier: raw_sales_details
+     - name: C_AZ12
+       identifier: raw_CUST_AZ12
+     - name: L_A101
+       identifier: raw_LOC_A101
+     - name: P_G1V2
+       identifier: raw_PX_CAT_G1V2

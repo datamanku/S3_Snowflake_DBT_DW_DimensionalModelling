@@ -1,0 +1,39 @@
+
+
+models:
+  - name: silver_erp_cust_az12
+    description: Table silver_erp_cust_az12 is the table obtained after transforming table bronze_erp_cust_az12.
+    columns:
+      - name: cid
+        description: 
+      - name: bdate
+        description: 
+      - name: gen
+        description:
+      - name: dwh_create_date
+        description:
+
+  - name: silver_erp_loc_a101
+    description: Table silver_erp_loc_a101 is the table obtained after transforming table bronze_erp_loc_a101.
+    columns:
+      - name: cid
+        description: 
+      - name: cntry
+        description: 
+      - name: dwh_create_date
+        description:
+
+  - name: silver_erp_px_cat_g1v2
+    description: Table silver_erp_px_cat_g1v2 is the table obtained after transforming table bronze_erp_px_cat_g1v2.
+    columns:
+      - name: id
+        description: 
+      - name: cat
+        description: 
+      - name: subcat
+        description: 
+      - name: maintenance
+        description: 
+      - name: dwh_create_date
+        description:
+
